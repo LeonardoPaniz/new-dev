@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;1,300;1,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="lista.css" />
+    <title>Lista de mensagens</title>
+  </head>
+  <body>
+    <main class="container">
+      <h1>adicionar mensagens</h1>
+      <form id="form-message">
+        <label for="from"></label>
+        <input id="from" type="text" autocomplete="off" />
+
+        <label for="to"> Para: </label>
+        <input id="to" type="text" autocomplete="off" />
+
+        <label for="message"> menssagem: </label>
+        <textarea id="message" cols="50" rows="6"></textarea>
+
+        <button id="buttonAddMessage">Adicionar</button>
+      </form>
+
+      <section id="sectionMessages"></section>
+    </main>
+
+    <script src="main.js"></script>
+  </body>
+</html>

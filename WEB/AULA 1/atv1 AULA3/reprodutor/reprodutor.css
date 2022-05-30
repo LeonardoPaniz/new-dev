@@ -1,0 +1,36 @@
+*{
+margin: 0;
+box-sizing: border-box
+}
+html, body{
+  height: 100%,
+}
+
+:root{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 37.5rem;
+  height: 41.8rem;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+  background-image: url(http://viroupauta.com/wp-content/uploads/2020/09/beicola.jpg);
+  background-repeat: no-repeat;
+  object-fit: cover;
+  
+}
+
+
+
+audio{
+  width: 100%;
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <meta />
+  <body>
+    <section>
+    width: 
+
+
+      <div>
+        <p>Paragrafo Box model</p>
+      </div>
+    </section>
+    <link rel="manifest" href="style.css" />
+    <meta />
+    <h1 style="color: rgb(255, 217, 0)">ola mundo</h1>
+
+    <a
+      href="https://www.google.com/webhp?hl=pt-BR&sa=X&sqi=2&pjf=1&ved=0ahUKEwi57qnavdP3AhVqzTgGHcAbBf4QPAgI"
+      >Google.com</a
+    >
+    <button class="cores" id="CorBotão">Clique Aqui</button>
+
+    <img
+      width="200"
+      height="200"
+      src="assets/luffe e zoro.jpg"
+      alt="luffy querendo brincar de pega-pega com o zoro"
+      title="luffy e zoro"
+    />
+  </body>
+</html>
