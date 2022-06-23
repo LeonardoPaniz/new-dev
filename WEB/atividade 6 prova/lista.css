@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+body{
+  background-image: url(https://img.freepik.com/fotos-gratis/textura-de-parede-de-estuque-azul-marinho-de-relevo-decorativo-grunge-abstrato-fundo-colorido-aspero-de-angulo-amplo_1258-28311.jpg?w=2000);
+  margin: 0%;
+}
+div.dependentes{
+  text-align: center;
+}
+button{
+  padding: 10px;
+  display: inline-block;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold;
+}
+h1{
+  color: white;
+  margin-top: 5rem;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: #000;
+}
+input.texto{
+  margin-top: 8rem;
+  padding: 10px;
+  display: inline-block;
+  border-radius: 4px;
+  font-weight: bold;
+}
+div.inutil{
+  margin-top: 2rem;
+}
+div.border{
+  background-color: #011e3675;
+  border: 10rem;
+  border-radius: 30px;
+  display: grid;   
+  margin-left: 25rem;
+  margin-right: 25rem;
+  margin-top: 2rem;
+}
+section{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
